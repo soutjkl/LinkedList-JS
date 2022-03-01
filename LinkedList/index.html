@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Listas Enlazadas</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" href="icon.png">
+      </head>
+    
+    <body>
+        
+        <div id="add-container">
+            <form id="form-1">
+                <div class="add">
+                    <h2>AGREGAR</h2>
+                    <label for="names" id="name">
+                        <span id="text-ele">Ingrese el dato que desea almacenar en la lista</span><br>
+                        <input type="text" name="name" required="yes" placeholder="">
+                    </label>
+                    <div id="buttons">
+                        <input type="submit" name="submit" >
+                        <input type="reset" name="reset" style="float: right;">
+                    </div>
+                </div>
+            </form>   
+        </div>
+
+        <div id="delete-container">
+            <form id="delete-form">
+                <h2>ELIMINAR</h2>
+                <select  id="elements"></select>
+                <input type="submit" name="delete" id="element-delete" style="float: right;">
+            </form>
+        </div>
+
+    </body>
+    <script type="module" src="./script.js"></script>
+</html>
